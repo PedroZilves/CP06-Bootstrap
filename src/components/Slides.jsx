@@ -6,12 +6,13 @@ function Slides() {
       <Carousel.Item>
         <img
             className='d-block w-100'
-            src="/messi.jpg"
+            src="/revista.jpg"
             alt="Primeiro slide"
-            style={{ maxHeight: '300px', width: 'auto' }} // Adicione estilos personalizados para ajustar o tamanho
+            style={{ maxHeight: '30px', width: '200px' }} // Adicione estilos personalizados para ajustar o tamanho
         />
         <Carousel.Caption>
-          <h3>Meci</h3>
+          <h3>Slide</h3>
+          <p>Slide</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -22,7 +23,8 @@ function Slides() {
         style={{ maxHeight: '300px', width: 'auto' }} // Adicione estilos personalizados para ajustar o tamanho
         />
         <Carousel.Caption>
-          <h3>Cerrisete</h3>
+          <h3>Slide</h3>
+          <p>Slide</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -33,7 +35,8 @@ function Slides() {
         style={{ maxHeight: '300px', width: 'auto' }} // Adicione estilos personalizados para ajustar o tamanho
         />
         <Carousel.Caption>
-          <h3>Mini no Ney</h3>
+          <h3>Slide</h3>
+          <p>Slide</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -44,7 +47,8 @@ function Slides() {
         style={{ maxHeight: '300px', width: 'auto' }} // Adicione estilos personalizados para ajustar o tamanho
         />
         <Carousel.Caption>
-          <h3>Mini no Ney</h3>
+          <h3>Slide</h3>
+          <p>Slide</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -55,7 +59,8 @@ function Slides() {
         style={{ maxHeight: '300px', width: 'auto' }} // Adicione estilos personalizados para ajustar o tamanho
         />
         <Carousel.Caption>
-          <h3>Mini no Ney</h3>
+          <h3>Slide</h3>
+          <p>Slide</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -66,7 +71,8 @@ function Slides() {
         style={{ maxHeight: '300px', width: 'auto' }} // Adicione estilos personalizados para ajustar o tamanho
         />
         <Carousel.Caption>
-          <h3>Mini no Ney</h3>
+          <h3>Slide</h3>
+          <p>Slide</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -77,7 +83,8 @@ function Slides() {
         style={{ maxHeight: '300px', width: 'auto' }} // Adicione estilos personalizados para ajustar o tamanho
         />
         <Carousel.Caption>
-          <h3>Mini no Ney</h3>
+          <h3>Slide</h3>
+          <p>Slide</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -88,7 +95,8 @@ function Slides() {
         style={{ maxHeight: '300px', width: 'auto' }} // Adicione estilos personalizados para ajustar o tamanho
         />
         <Carousel.Caption>
-          <h3>Mini no Ney</h3>
+          <h3>Slide</h3>
+          <p>Slide</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

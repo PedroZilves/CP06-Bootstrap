@@ -2,12 +2,18 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Image from 'react-bootstrap/Image';
 
 function Menu() {
   return (
     <Navbar expand="lg" className="bg-warning text-white">
       <Container>
-        <Navbar.Brand href="#home" className='text-white'>Loja geek</Navbar.Brand>
+        <Image
+          src='/logo.jpg'
+          style={{height:"50px"}}
+          roundedCircle
+        />
+        <Navbar.Brand href="#home" className='ms-2 text-white'>Loja Nerd</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto text-white">

@@ -3,17 +3,12 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 function Aviso() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   return (
     <>
-      <Button variant="success" onClick={handleShow}>
-        Aviso
-      </Button>
-
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Aviso!</Modal.Title>
