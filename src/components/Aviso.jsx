@@ -13,7 +13,7 @@ function Aviso() {
         <Modal.Header closeButton>
           <Modal.Title>Aviso!</Modal.Title>
         </Modal.Header>
-        <Modal.Body>A partir de 07/11 abriremos nova loja na Rua dos Eucaliptos, 735!!</Modal.Body>
+        <Modal.Body>A partir de 10/11 abriremos nova loja na Rua dos Eucaliptos, 735!!</Modal.Body>
         <Modal.Footer>
           <Button variant="primary" onClick={handleClose}>
             OK!
