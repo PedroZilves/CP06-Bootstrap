@@ -1,7 +1,7 @@
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 
-function Tabela() {
+function Tabela2() {
   return (
     <Table striped bordered hover variant="light" style={{maxWidth:'600px', margin:'0 auto'}}>
       <thead>
@@ -13,29 +13,29 @@ function Tabela() {
       </thead>
       <tbody>
         <tr className='text-center'>
-          <td>Caneca Harry Potter</td>
-          <td>R$22,90</td>
+          <td>Caneca Mario</td>
+          <td>R$20,90</td>
           <td>
             <Button variant="primary">Ir para compra</Button>
           </td>
         </tr>
         <tr className='text-center'>
-          <td>Action Figure Harry Potter</td>
-          <td>R$15,90</td>
+          <td>Action Figure Mario</td>
+          <td>R$19,90</td>
           <td>
           <Button variant="primary" >Ir para compra</Button>
           </td>
         </tr>
         <tr className='text-center'>
-          <td>Camiseta Harry Potter</td>
-          <td>R$35,90</td>
+          <td>Camiseta Mario</td>
+          <td>R$39,90</td>
           <td>
           <Button variant="primary">Ir para compra</Button>
           </td>
         </tr>
         <tr className='text-center'>
-          <td>Pulseira Harry Potter</td>
-          <td>R$11,90</td>
+          <td>Pulseira Mario</td>
+          <td>R$18,90</td>
           <td>
           <Button variant="primary">Ir para compra</Button>
           </td>
@@ -45,4 +45,4 @@ function Tabela() {
   );
 }
 
-export default Tabela;
+export default Tabela2;

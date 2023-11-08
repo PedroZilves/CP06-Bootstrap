@@ -12,7 +12,7 @@ function Lista() {
       <Accordion.Item eventKey="1">
         <Accordion.Header>ANIME AWARDS EDITION!</Accordion.Header>
         <Accordion.Body>
-          Fiquem também atentos á proxima premiação do anime awards, o vencedor ira receber uma grande promoção especial
+          Fiquem também atentos á proxima premiação do anime awards, o vencedor ira receber uma grande promoção
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
